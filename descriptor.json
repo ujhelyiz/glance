@@ -13,7 +13,16 @@
 	"files": [
 		{
 			"includePattern": "releng/com.xored.glance-updatesite/target/site/(.*)",
+			"exludePattern": "(.*)jar"
 			"uploadPattern": "repository/$1"
+		},
+		{
+			"includePattern": "releng/com.xored.glance-updatesite/target/site/plugins/(.*)",
+			"uploadPattern": "glance/1.1.1/repository/plugins/$1"
+		},
+		{
+			"includePattern": "releng/com.xored.glance-updatesite/target/site/features/(.*)",
+			"uploadPattern": "glance/1.1.1/repository/features/$1"
 		}
 	],
 	"publish": true
