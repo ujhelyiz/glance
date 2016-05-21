@@ -13,7 +13,7 @@
 	"files": [
 		{
 			"includePattern": "releng/com.xored.glance-updatesite/target/site/(.*)",
-			"exludePattern": "(.*)jar"
+			"exludePattern": "(.*)jar",
 			"uploadPattern": "repository/$1"
 		},
 		{
