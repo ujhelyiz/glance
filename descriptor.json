@@ -11,7 +11,8 @@
 	},
 
 	"files": [{
-		"includePattern": "releng/com.xored.glance-updatesite/target/site/(.*)"
+		"includePattern": "releng/com.xored.glance-updatesite/target/site/(.*)",
+		"uploadPattern": "repository/$1"
 	}],
 	"publish": true
 }
