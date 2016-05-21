@@ -26,25 +26,25 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.sonatype.tycho</groupId>
+				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
-				<version>0.9.0</version>
+				<version>0.24.0</version>
 				<extensions>true</extensions>
 			</plugin>
 
 			<plugin>
-				<groupId>org.sonatype.tycho</groupId>
+				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
-				<version>0.9.0</version>
+				<version>0.24.0</version>
 				<configuration>
 					<resolver>p2</resolver>
 				</configuration>
 			</plugin>
 
 			<plugin>
-				<groupId>org.sonatype.tycho</groupId>
-				<artifactId>maven-osgi-packaging-plugin</artifactId>
-				<version>0.9.0</version>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-packaging-plugin</artifactId>
+				<version>0.24.0</version>
 				<configuration>
 					<archiveSite>true</archiveSite>
 				</configuration>

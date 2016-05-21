@@ -11,8 +11,8 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <modules>
-    <module>com.xored.glance-feature</module>
-    <module>com.xored.glance.gef-feature</module>
-    <module>com.xored.glance.cvs-feature</module>
+    <module>com.xored.glance.feature</module>
+    <module>com.xored.glance.gef.feature</module>
+    <module>com.xored.glance.cvs.feature</module>
   </modules>
 </project>
