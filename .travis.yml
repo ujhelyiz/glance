@@ -1,9 +1,8 @@
 language: java
-
 deploy:
   provider: bintray
-  file: "descriptor.json"
-  user: "ujhelyiz"
-  key: "d933bd40583bf3eaed74a147c82301222e018631"
-
+  file: descriptor.json
+  user: ujhelyiz
+  key:
+    secure: s+TESCr7fV+UHpt2dQHkwCHD04p3IFc1rCnnGueXL1z4GM8bbG51jIxaYcutU1JRCTQY/a60t8zWTeT2Mo5kV/ya17yzbGZC7JYyQzYa24NmL7RCvlIm+v1Da0LgRRaU5ZNL/3l+SRvh1+mUnRwagR+W4BdKGjPPMTLvMlPyOLzynBF0vkzTMmeRYR0mlrgEING4+nl5XOGm5kiPWRiniKWvbNrWjWN8Udd339FzZuTB5wvII+gIsVPEb5bIh3sN6LCKjQxmMtnz+aTHQUu8p8TzRW0mjaqp6BjARvkcrkrvMAq4RSsBk92YyecgAuJZP7VyunGzrO+YdysUD2D7hMLGapz64/uJ4Zk4uxP5BIcucX1fb88+Q3xTvsbPLRbphJRhWYT+OhfI6+b6mlTlnDUxHHf9AYAOt8hVra9LKN4kGz64vDzb3NyuLH4xoYL8OslwcVm5hZYAlr+gNIjccXB5Z9BKT0uahxuPI0pj7ZoXwuUuk8qT4be6AYBRcLt9Mk0xcwKwC1dSCgaokMb/Ii7p3OEE4xy0ZEUEjuh1PQlVJ2qDuwWnQ/8IqelCPtzzkdzTFbEo6spWNsUWfmSmypZlierNLEWiuGsrFVXpRD9MPkqhNioXOnvgsjuniqmEe29JyzoCXxnnGWdGSof/w6TNN/UAX6rsNrT2/jD/SiU=
 script: mvn clean verify
