@@ -5,3 +5,5 @@ deploy:
   file: "descriptor.json"
   user: "ujhelyiz"
   key: "d933bd40583bf3eaed74a147c82301222e018631"
+
+script: mvn clean verify
