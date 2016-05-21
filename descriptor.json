@@ -11,9 +11,10 @@
 	},
 
 	"files": [
-		{"includePattern": "releng/com.xored.glance-updatesite/target/site/(.*)", "uploadPattern": "repository/$1"},
-		{"includePattern": "releng/com.xored.glance-updatesite/target/site/plugins/(.*)", "uploadPattern": "repository/plugins/$1"},
-		{"includePattern": "releng/com.xored.glance-updatesite/target/site/features/(.*)", "uploadPattern": "repository/features/$1"}
+		{
+			"includePattern": "releng/com.xored.glance-updatesite/target/site/(.*)",
+			"uploadPattern": "repository/$1"
+		}
 	],
 	"publish": true
 }
